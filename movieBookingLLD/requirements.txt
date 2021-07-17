@@ -1,0 +1,27 @@
+User(Customer):
+->Search a movie in his city (via zipCode, theatreName)
+->Book a ticket
+->See Booking History
+User(Admin):
+->Add or Remove a movie,Theatre
+->Search a movie in his city (via zipCode, theatreName)
+->Book a ticket
+->See Booking History
+
+Movie:
+->id
+->name
+->description
+->duration
+->Language
+
+User:
+->id
+->name
+->Address
+
+Theatre:
+->id
+->name
+->Address
+->movieDetails
